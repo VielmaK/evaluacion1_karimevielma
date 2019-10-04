@@ -40,6 +40,10 @@ Route::get('Zapatos', function() {
 	return view('Zapatos');
 });
 
+Route::get('Guillermo', function () {
+    return view('Guillermo');
+});
+
 
 
 
